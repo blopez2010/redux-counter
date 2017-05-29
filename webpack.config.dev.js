@@ -14,7 +14,7 @@ module.exports = {
     contentBase: "./public",
     hot: true,
     inline: true,
-    port: 8081
+    port: 8082
   },
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),
