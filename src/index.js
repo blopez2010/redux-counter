@@ -1,5 +1,6 @@
 import counter from './counter';
-import { createStore } from 'redux';
+// import { createStore } from 'redux';
+import createStore from './customStore';
 
 // console.log(counter(1, 'INCREMENT'));
 const store = createStore(counter);
